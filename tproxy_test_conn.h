@@ -1,3 +1,6 @@
+//Written by Kristian Evensen <kristian.evensen@gmail.com>
+//Use for whatever you want :)
+
 #ifndef TPROXY_TEST_CONN_H
 #define TPROXY_TEST_CONN_H
 

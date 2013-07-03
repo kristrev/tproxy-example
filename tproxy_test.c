@@ -1,3 +1,6 @@
+//Written by Kristian Evensen <kristian.evensen@gmail.com>
+//Use for whatever you want :)
+
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
