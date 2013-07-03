@@ -1,10 +1,9 @@
 //Written by Kristian Evensen <kristian.evensen@gmail.com>
-//Use for whatever you want :)
 
 #ifndef TPROXY_TEST_CONN_H
 #define TPROXY_TEST_CONN_H
 
-#include "tproxy_test.h"
+#include "tproxy_example.h"
 
 tproxy_conn_t* add_tcp_connection(int efd, struct tailhead *conn_list, 
         int local_fd);

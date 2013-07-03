@@ -1,5 +1,4 @@
 //Written by Kristian Evensen <kristian.evensen@gmail.com>
-//Use for whatever you want :)
 
 #include <stdio.h>
 #include <stdint.h>
@@ -12,7 +11,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 
-#include "tproxy_test_conn.h"
+#include "tproxy_example_conn.h"
 
 //Createas a socket and initiates the connection to the host specified by 
 //remote_addr.

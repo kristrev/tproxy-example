@@ -1,5 +1,4 @@
 //Written by Kristian Evensen <kristian.evensen@gmail.com>
-//Use for whatever you want :)
 
 #define _GNU_SOURCE
 #include <stdio.h>
@@ -20,8 +19,8 @@
 #include <signal.h>
 #include <errno.h>
 
-#include "tproxy_test.h"
-#include "tproxy_test_conn.h"
+#include "tproxy_example.h"
+#include "tproxy_example_conn.h"
 
 void close_tcp_conn(tproxy_conn_t *conn, struct tailhead *conn_list, 
         struct tailhead *close_list){

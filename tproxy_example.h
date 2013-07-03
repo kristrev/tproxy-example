@@ -1,5 +1,4 @@
 //Written by Kristian Evensen <kristian.evensen@gmail.com>
-//Use for whatever you want :)
 
 #ifndef TPROXY_EXAMPLE_H
 #define TPROXY_EXAMPLE_H
