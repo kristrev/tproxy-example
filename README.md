@@ -12,7 +12,7 @@ decided to create a small example showing how TPROXY can be used to proxy TCP
 connections. 
 
 The example transparent proxy application accepts TCP connections on the
-specified port (set to 9876 in tproxy\_test.h) and attempts a TCP connection to
+specified port (set to 9876 in tproxy\_example.h) and attempts a TCP connection to
 the original host. If it is successful, the application starts forwarding data
 between the two connections (using splice()). The application supports multiple
 simultaneous connections and handles connections which fail (at least the
