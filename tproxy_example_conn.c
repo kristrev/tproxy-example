@@ -10,7 +10,8 @@
 #include <sys/epoll.h>
 #include <stdlib.h>
 #include <fcntl.h>
-
+#include <arpa/inet.h>
+#include <unistd.h>
 #include "tproxy_example_conn.h"
 
 //Createas a socket and initiates the connection to the host specified by 
