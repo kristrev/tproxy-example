@@ -38,6 +38,7 @@ int handle_epollin(tproxy_conn_t *conn){
     //I need to make a system call to determin which socket
     if(ioctl(conn->local_fd, FIONREAD, &numbytes) != -1 
             && numbytes > 0){
+	fprintf(stderr, "received data.\n");
         fd_in = conn->local_fd;
         fd_out = conn->remote_fd;
     } else {
